@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Celebrity Dater</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-align">
+        <h2>Who Shall You Be?</h2>
+        <h4>A quiz to see which charactor from <span id="underline">The Secret Garden</span> you are, who will it be???</h4>
+        <h6>By Joe McKinney</h6>
+      </div>
+      <p>Please fill out the following form so that we can take your answers and use them to see which charactor you are the most like from the story <span id="underline">The Secret Garden</span>.</p>
+      <form id="questions">
+        <p>Where would you most like to spend your time?</p>
+        <select class="form-control" id="indoors-outdoors">
+          <option value="0">Please select one:</option>
+          <option value="1">Indoors all the time</option>
+          <option value="2">Outdoors all the time</option>
+          <option value="3">Always in the garden </option>
+          <option value="4">Mostly outdoors</option>
+        </select>
+        <p>What would you most like to do with your days?</p>
+        <select class="form-control" id="thing-to-do">
+          <option value="0">Please select one:</option>
+          <option value="1">Play with animals</option>
+          <option value="2">Explore in the garden</option>
+          <option value="3">Talk to the Red Robin</option>
+          <option value="4">Lay in bed whining</option>
+        </select>
+        <p>Please describe your health:</p>
+        <select class="form-control" id="health">
+          <option value="0">Please select one:</option>
+          <option value="1">Very Healthy</option>
+          <option value="2">Im old but im good</option>
+          <option value="3">They tell me im sick</option>
+          <option value="4">I am well</option>
+        </select><br>
+        <button type="submit" class="btn btn-danger">Let's see!</button>
+      </form>
+      <div id="mary">
+        <p>Well hello!  It sounds like you are much like our good friend Mary!!</p>
+      </div>
+      <div id="ben">
+        <p>Well hello!  It sounds like you are much like our good friend Ben!!</p>
+      </div>
+      <div id="dickon">
+        <p>Well hello!  It sounds like you are much like our good friend Dickon!!</p>
+      </div>
+      <div id="colin">
+        <p>Well hello!  It sounds like you are much like our good friend Colin...Sorry!!</p>
+      </div>
+    </div>
+  </body>
+</html>
